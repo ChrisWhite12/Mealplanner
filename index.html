@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Meal Planner</title>
+</head>
+<body>
+    <div class="plan-table">
+        <div class="secMon part1 ">Monday</div>
+        <div class="secMon part2 input-box"></div>
+        <div class="secMon part3 input-box"></div>
+        <div class="secMon part4 input-box"></div>
+        <div class="secMon part5 input-box"></div>
+
+        <div class="secTue part1">Tuesday</div>
+        <div class="secTue part2 input-box"></div>
+        <div class="secTue part3 input-box"></div>
+        <div class="secTue part4 input-box"></div>
+        <div class="secTue part5 input-box"></div>
+
+        <div class="secWed part1">Wednesday</div>
+        <div class="secWed part2 input-box"></div>
+        <div class="secWed part3 input-box"></div>
+        <div class="secWed part4 input-box"></div>
+        <div class="secWed part5 input-box"></div>
+
+        <div class="secThu part1">Thursday</div>
+        <div class="secThu part2 input-box"></div>
+        <div class="secThu part3 input-box"></div>
+        <div class="secThu part4 input-box"></div>
+        <div class="secThu part5 input-box"></div>
+
+        <div class="secFri part1">Friday</div>
+        <div class="secFri part2 input-box"></div>
+        <div class="secFri part3 input-box"></div>
+        <div class="secFri part4 input-box"></div>
+        <div class="secFri part5 input-box"></div>
+
+        <div class="secSat part1">Saturday</div>
+        <div class="secSat part2 input-box"></div>
+        <div class="secSat part3 input-box"></div>
+        <div class="secSat part4 input-box"></div>
+        <div class="secSat part5 input-box"></div>
+
+        <div class="secSun part1">Sunday</div>
+        <div class="secSun part2 input-box"></div>
+        <div class="secSun part3 input-box"></div>
+        <div class="secSun part4 input-box"></div>
+        <div class="secSun part5 input-box"></div>
+
+        <ion-icon name="arrow-back-circle-outline" id="Prev-btn"></ion-icon>
+        <ion-icon name="arrow-forward-circle-outline" id="Next-btn"></ion-icon>
+
+        <p class="meal breakfast">Breakfast</p>
+        <p class="meal lunch">Lunch</p>
+        <p class="meal atea">Afternoon Tea</p>
+        <p class="meal dinner">Dinner</p>
+        <p class="week-text">Week 1</p>
+        
+    </div>
+    <nav class="navbar">
+        <ion-icon name="play-outline" id="box-arrow"></ion-icon>
+        <ul class="navbar-nav">
+            <li id="NW-btn">New Week</li>
+            <li id="DW-btn">Delete Week</li>
+            <li id="Recipe-btn">New Recipe</li>
+            <li id="Print-btn">Print</li>
+            <li id="Save-btn">Save</li>
+        </ul>
+    </nav>
+    <div class="recipe-box">
+        <button class="back-btn">Back</button>
+        <input type="search" name="recipe-name" id="recipe-name">
+        <!-- <p id="recipe-text">Recipe Name - </p> -->
+        <input type="search" name="item-name" id="item-name">
+        <!-- <p id="item-text">Item Name - </p> -->
+        <input type="text" name="use-by" id="use-by">
+        <!-- <p id="use-by-text">Use by - </p> -->
+        <input type="text" name="fruit-val" id="fruit-val">
+        <!-- <p id="fruit-text">Fruit serving - </p> -->
+        <input type="text" name="veg-val" id="veg-val">
+        <!-- <p id="veg-text">Veg serving - </p> -->
+        <input type="text" name="eat-by" id="eat-by">
+        <!-- <p id="eat-by-text">Eat by - </p> -->
+        <input type="text" name="serv-val" id="serv-val">
+        <button id="create-btn">Create</button>
+        <button id="delete-btn">Delete</button>
+        <!-- <p id="serv-text">Servings - </p> -->
+        <div class="ingr-list">
+            <input type="text" name="quant-val" class="quant-val">
+            <select name="measure" class="meas-sel">
+                <option value="cups">Cups</option>
+                <option value="grams">g</option>
+                <option value="ml">mL</option>
+                <option value="tsp">tsp</option>
+                <option value="tbsp">tbsp</option>
+                <option value="empty"></option>
+            </select>
+            <p class="item-name-2">ABC</p>
+        </div>
+
+    </div>
+
+    
+    
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src = "main.js"></script>
+</body>
+</html>
